@@ -1,0 +1,131 @@
+
+/* Brand Hex codes: #1995AD, #A1D6E2, #F1F1F2*/
+       body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        
+        header {
+            background-color:#1995AD;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1rem;
+            font-style: italic;
+        }
+        nav {
+            background-color: #F1F1F2;
+            color: #fff;
+            padding: 0.5rem 2rem;
+            text-align: center;
+            width: 100%; 
+            margin: 0;
+        }
+        nav a {
+            color: #333333;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            overflow: hidden;
+        }
+        .card-header {
+            padding: 1rem;
+            font-weight: bold;
+            background-color: #f9f9f9;
+        }
+        .card-teaser {
+            padding: 1rem;
+            color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .modal-content {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 5px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: left;
+        }
+        .modal-header {
+            font-weight: bold;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            color: #0078D7;
+        }
+        .modal-close {
+            display: block;
+            text-align: right;
+            margin-top: -10px;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        .banner img {
+            width: 100%;
+            height: 20vh; /* The banner will take 50% of the viewport height */
+            object-fit: cover; /* Ensures the image covers the banner area without distortion */
+        }
+        /* Add left padding to all articles */
+
+        article p {
+            padding-left: 10px; /* Add padding to paragraphs */
+            padding-right: 10px;
+        }
+
+        .card-content {
+            max-height: 300px;  /* Adjust this value based on the size of the content */
+            overflow-y: auto;   /* Adds a vertical scrollbar when content overflows */
+            padding: 10px;
+            background-color: #f9f9f9;  /* Optional: adds a light background */
+            border-top: 1px solid #ddd; /* Optional: adds a separator line */
+        }
+        
+
+        

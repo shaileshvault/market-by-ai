@@ -63,6 +63,11 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card4">
+            <div class="card-header">ICICI Lombard General Insurance <span style="font-size: 0.8rem; color: #777;">(Posted: Jan 20, 2025, 11:30 M)</span></div>
+            <div class="card-teaser">ICICI Lombard has shown strong financial growth, outperforming market indices. Here's a detailed look...</div>
+        </div>
+        
         <div class="card" id="card1">
             <div class="card-header">Budget 2025: Top 10 Stocks to Watch <span style="font-size: 0.8rem; color: #777;">(Posted: Jan 18, 2025, 10:00 AM)</span></div>
             <div class="card-teaser">Here are ten stocks that could be influenced positively by the upcoming budget...</div>
@@ -115,6 +120,26 @@
             `,
             card3: `
                 <p>The Federal Reserve announced changes to its interest rate policy, which could have widespread implications across all sectors. Stay tuned for detailed analysis.</p>
+            `,
+            card4: `
+                <h3>Market Sentiment</h3>
+    <p>ICICI Lombard has seen a positive market sentiment recently, with its stock price increasing by approximately 35.41% over the past year, outperforming both the NIFTY index and the Nifty Financial Services index, which rose by 8.15% and 11.28%, respectively. The stock has shown consistent gains, recently rising 2.21% in a single trading session, indicating strong investor confidence.</p>
+    
+    <h3>Financial Data</h3>
+    <ul>
+        <li><strong>Revenue</strong>: ₹61.6 billion for Q3 FY2025, up 19% from Q3 FY2024.</li>
+        <li><strong>Net Income</strong>: ₹7.24 billion, reflecting a significant increase of 68% year-on-year.</li>
+        <li><strong>Profit Margin</strong>: Improved to 12% from 8.3% in the previous year.</li>
+        <li><strong>Earnings Per Share (EPS)</strong>: Increased to ₹14.63 from ₹8.78.</li>
+    </ul>
+
+    <p>The company is projected to grow its revenue at an average rate of <strong>12% per annum</strong> over the next three years, which is higher than the industry average of <strong>8.4%</strong>. However, it is essential to note that there is one warning sign regarding its investment analysis, which could indicate potential risks.</p>
+
+    <h3>Growth Prospects</h3>
+    <p>ICICI Lombard's growth prospects appear strong due to its robust financial performance and market position within the Indian insurance sector. The company's ability to exceed analyst expectations in both revenue and EPS suggests effective management and operational efficiency.</p>
+
+    <h3>Investment Recommendation</h3>
+    <p>Given the strong financial results and positive growth forecast, ICICI Lombard presents a compelling investment opportunity. Investors should consider buying at current levels around ₹1,950, with potential targets of ₹2,000 and ₹2,100 in the near future, contingent on market conditions and continued performance.</p>
             `
         };
 
@@ -151,6 +176,10 @@
         document.getElementById("card3").querySelector(".card-header").addEventListener("click", function() {
             openModal("card3");
         });
+        document.getElementById("card4").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card4");
+        });
+
     </script>
 </body>
 </html>

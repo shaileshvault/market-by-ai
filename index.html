@@ -4,54 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market AI</title>
+    <link rel="icon" href="images/Logo.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 
-    <style>
-        /* Modal styles */
-        .modal {
-            display: none; 
-            position: fixed; 
-            z-index: 1; 
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto; 
-            background-color: rgb(0,0,0); 
-            background-color: rgba(0,0,0,0.4); 
-            padding-top: 60px;
-        }
-
-        .modal-content {
-            background-color: #fff;
-            margin: 5% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 600px;
-        }
-
-        .close {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-        }
-
-        .close:hover,
-        .close:focus {
-            color: black;
-            text-decoration: none;
-            cursor: pointer;
-        }
-    </style>
 </head>
 
 <body>
     
     <header>
+        <img src="images/Logo.png" alt="Market AI Logo" class="logo">
         <h1>Market by AI</h1>
         <p>Your AI Partner in Stock Market Success.</p>
     </header>
@@ -63,6 +26,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card3">
+            <div class="card-header">Impact of Trump Policies on Indian Markets <span style="font-size: 0.8rem; color: #777;">(Posted: Jan 21, 2025, 11:30 AM)</span></div>
+            <div class="card-teaser">An in-depth look at how Donald Trump policies may affect the Indian financial market.</div>
+        </div>
         <div class="card" id="card4">
             <div class="card-header">ICICI Lombard General Insurance <span style="font-size: 0.8rem; color: #777;">(Posted: Jan 20, 2025, 11:30 M)</span></div>
             <div class="card-teaser">ICICI Lombard has shown strong financial growth, outperforming market indices. Here's a detailed look...</div>
@@ -78,10 +45,6 @@
             <div class="card-teaser">Opportunities in renewable energy investments...</div>
         </div>
         
-        <div class="card" id="card3">
-            <div class="card-header">Breaking News: Fed Policy <span style="font-size: 0.8rem; color: #777;">(Posted: Jan 8, 2025, 9:00 AM)</span></div>
-            <div class="card-teaser">Fed announces changes to interest rate policy...</div>
-        </div>
     </div>
 
     <!-- Modal for displaying content -->
@@ -119,28 +82,49 @@
                 <p>Our latest research highlights the growing opportunities in renewable energy investments. Discover the key players and trends shaping the future.</p>
             `,
             card3: `
-                <p>The Federal Reserve announced changes to its interest rate policy, which could have widespread implications across all sectors. Stay tuned for detailed analysis.</p>
+                <h3>1. <strong>Trade Policies and Tariffs</strong></h3>
+                <p><strong>Impact</strong>: Trump administration was known for its protectionist trade policies, including tariffs on imports from various countries. If similar policies were reinstated or continued, it could lead to increased tariffs on Indian goods, affecting exports.</p>
+                <p><strong>Market Reaction</strong>: A potential decline in exports could negatively impact Indian companies reliant on the U.S. market, leading to a bearish sentiment in sectors like textiles and pharmaceuticals.</p>
+                
+                <h3>2. <strong>Foreign Direct Investment (FDI)</strong></h3>
+                <p><strong>Impact</strong>: Trump focus on domestic manufacturing could deter U.S. companies from investing in India if they perceive a more favorable environment for investment back home. Conversely, if he promotes foreign investment in specific sectors (like defense or technology), it could benefit those industries in India.</p>
+                <p><strong>Market Reaction</strong>: A reduction in FDI could lead to slower economic growth projections for India, negatively impacting stock prices, particularly in sectors that depend heavily on foreign capital.</p>
+
+                <h3>3. <strong>Geopolitical Relations</strong></h3>
+                <p><strong>Impact</strong>: Trump administration had a complex relationship with China, which could lead to shifts in alliances. If India is perceived as a counterbalance to China, U.S.-India relations might strengthen, benefiting Indian markets.</p>
+                <p><strong>Market Reaction</strong>: Improved geopolitical ties could boost investor confidence in Indian equities, especially in defense and technology sectors.</p>
+
+                <h3>4. <strong>Monetary Policy and Interest Rates</strong></h3>
+                <p><strong>Impact</strong>: Changes in U.S. monetary policy under Trump leadership could influence global interest rates. For instance, if the Federal Reserve raises rates, it could lead to capital outflows from emerging markets like India as investors seek higher returns in the U.S.</p>
+                <p><strong>Market Reaction</strong>: Rising interest rates can lead to increased borrowing costs in India, potentially slowing down economic growth and negatively impacting stock market performance.</p>
+
+                <h3>5. <strong>Sector-Specific Impacts</strong></h3>
+                <p><strong>Impact</strong>: Certain sectors may benefit from Trump policies, such as defense and infrastructure, due to increased military spending or infrastructure projects in the U.S. This could lead to increased demand for Indian companies involved in these sectors.</p>
+                <p><strong>Market Reaction</strong>: Stocks in these sectors may see positive momentum as investors anticipate growth driven by U.S.-India collaborations or increased demand for products.</p>
+
+                <h3>Conclusion</h3>
+                <p>The implications of Donald Trump policies on the Indian financial market are multifaceted and can vary widely across different sectors. Investors should remain vigilant about geopolitical developments and trade relations that may arise from U.S. policy shifts under any future administration resembling Trump’s approach. Monitoring these factors will be crucial for making informed investment decisions within the Indian market context.</p>
             `,
             card4: `
                 <h3>Market Sentiment</h3>
-    <p>ICICI Lombard has seen a positive market sentiment recently, with its stock price increasing by approximately 35.41% over the past year, outperforming both the NIFTY index and the Nifty Financial Services index, which rose by 8.15% and 11.28%, respectively. The stock has shown consistent gains, recently rising 2.21% in a single trading session, indicating strong investor confidence.</p>
-    
-    <h3>Financial Data</h3>
-    <ul>
-        <li><strong>Revenue</strong>: ₹61.6 billion for Q3 FY2025, up 19% from Q3 FY2024.</li>
-        <li><strong>Net Income</strong>: ₹7.24 billion, reflecting a significant increase of 68% year-on-year.</li>
-        <li><strong>Profit Margin</strong>: Improved to 12% from 8.3% in the previous year.</li>
-        <li><strong>Earnings Per Share (EPS)</strong>: Increased to ₹14.63 from ₹8.78.</li>
-    </ul>
+                <p>ICICI Lombard has seen a positive market sentiment recently, with its stock price increasing by approximately 35.41% over the past year, outperforming both the NIFTY index and the Nifty Financial Services index, which rose by 8.15% and 11.28%, respectively. The stock has shown consistent gains, recently rising 2.21% in a single trading session, indicating strong investor confidence.</p>
+                
+                <h3>Financial Data</h3>
+                <ul>
+                    <li><strong>Revenue</strong>: ₹61.6 billion for Q3 FY2025, up 19% from Q3 FY2024.</li>
+                    <li><strong>Net Income</strong>: ₹7.24 billion, reflecting a significant increase of 68% year-on-year.</li>
+                    <li><strong>Profit Margin</strong>: Improved to 12% from 8.3% in the previous year.</li>
+                    <li><strong>Earnings Per Share (EPS)</strong>: Increased to ₹14.63 from ₹8.78.</li>
+                </ul>
 
-    <p>The company is projected to grow its revenue at an average rate of <strong>12% per annum</strong> over the next three years, which is higher than the industry average of <strong>8.4%</strong>. However, it is essential to note that there is one warning sign regarding its investment analysis, which could indicate potential risks.</p>
+                <p>The company is projected to grow its revenue at an average rate of <strong>12% per annum</strong> over the next three years, which is higher than the industry average of <strong>8.4%</strong>. However, it is essential to note that there is one warning sign regarding its investment analysis, which could indicate potential risks.</p>
 
-    <h3>Growth Prospects</h3>
-    <p>ICICI Lombard's growth prospects appear strong due to its robust financial performance and market position within the Indian insurance sector. The company's ability to exceed analyst expectations in both revenue and EPS suggests effective management and operational efficiency.</p>
+                <h3>Growth Prospects</h3>
+                <p>ICICI Lombard's growth prospects appear strong due to its robust financial performance and market position within the Indian insurance sector. The company's ability to exceed analyst expectations in both revenue and EPS suggests effective management and operational efficiency.</p>
 
-    <h3>Investment Recommendation</h3>
-    <p>Given the strong financial results and positive growth forecast, ICICI Lombard presents a compelling investment opportunity. Investors should consider buying at current levels around ₹1,950, with potential targets of ₹2,000 and ₹2,100 in the near future, contingent on market conditions and continued performance.</p>
-            `
+                <h3>Investment Recommendation</h3>
+                <p>Given the strong financial results and positive growth forecast, ICICI Lombard presents a compelling investment opportunity. Investors should consider buying at current levels around ₹1,950, with potential targets of ₹2,000 and ₹2,100 in the near future, contingent on market conditions and continued performance.</p>
+                        `
         };
 
         // Get modal and close button
@@ -179,6 +163,7 @@
         document.getElementById("card4").querySelector(".card-header").addEventListener("click", function() {
             openModal("card4");
         });
+        
 
     </script>
 </body>

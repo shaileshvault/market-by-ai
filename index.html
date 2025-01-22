@@ -41,6 +41,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card6">
+            <div class="card-header">Budget 2025: Top 5 Stocks to Watch in Union Budget 2025<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 22, 2025, 9:00 AM)</span></div>
+            <div class="card-teaser">Key sectors and stocks to benefit from Union Budget 2025...</div>
+        </div>
         <div class="card" id="card5">
             <div class="card-header">Analysis of Zomato Ltd <span style="font-size: 0.8rem; color: #777;">(Posted: Jan 21, 2025, 5:00 PM)</span></div>
             <div class="card-teaser">Zomato Ltd's stock faces downward pressure, reflecting concerns over its quick commerce arm, Blinkit, and the company's profitability.</div>
@@ -187,6 +191,28 @@
         </li>
     </ul>
     <p>In conclusion, while Zomato has growth potential through its investments in Blinkit and its established market presence, current financial challenges and competitive pressures warrant caution for new investments at this time.</p>`
+    ,
+    card6: `<h3>Top 5 Stocks to Watch in Union Budget 2025</h3>
+                <ol>
+                    <li><strong>Larsen & Toubro (LT)</strong><br>
+                        <strong>Sector</strong>: Infrastructure & Construction<br>
+                        <strong>Rationale</strong>: With a strong emphasis on capital expenditure and infrastructure development anticipated in the budget, L&T is well-positioned to benefit from increased government spending on projects such as roads, railways, and urban development initiatives.</li><br>
+                    <li><strong>Adani Ports & SEZ (ADANIPORTS)</strong><br>
+                        <strong>Sector</strong>: Logistics & Infrastructure<br>
+                        <strong>Rationale</strong>: As the largest commercial port operator in India, Adani Ports stands to gain from enhanced investments in port infrastructure and logistics, which are expected to be prioritized in the budget.</li><br>
+                    <li><strong>Bharat Electronics Limited (BEL)</strong><br>
+                        <strong>Sector</strong>: Defense Electronics<br>
+                        <strong>Rationale</strong>: With rising defense spending and a focus on self-reliance in defense manufacturing, BEL is likely to benefit from increased orders and funding for defense projects outlined in the budget.</li><br>
+                    <li><strong>Hindustan Aeronautics Limited (HAL)</strong><br>
+                        <strong>Sector</strong>: Aerospace & Defense<br>
+                        <strong>Rationale</strong>: Similar to BEL, HAL is expected to see growth due to anticipated increases in defense allocations, particularly for indigenous manufacturing of aircraft and related technologies.</li><br>
+                    <li><strong>Tata Power Company Ltd (TATAPOWER)</strong><br>
+                        <strong>Sector</strong>: Renewable Energy & Power Distribution<br>
+                        <strong>Rationale</strong>: With a strong push towards renewable energy and infrastructure development, Tata Power is well-positioned to benefit from government initiatives aimed at enhancing energy security and promoting sustainable energy solutions.</li><br>
+                </ol>
+                
+                <p>These stocks are strategically aligned with the government's focus areas for Budget 2025, which include infrastructure development, defense spending, and renewable energy investments. Investors may want to consider these companies for potential growth opportunities as the budget approaches.</p>
+                `
         };
 
         // Get modal and close button
@@ -227,6 +253,9 @@
         });
         document.getElementById("card5").querySelector(".card-header").addEventListener("click", function() {
             openModal("card5");
+        });
+        document.getElementById("card6").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card6");
         });
         
 

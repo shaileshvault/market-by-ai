@@ -20,6 +20,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card7">
+            <div class="card-header">Analysis of Bajaj Finserv <span style="font-size: 0.8rem; color: #777;">(Posted: Jan 23, 2025)</span></div>
+            <div class="card-teaser">Bajaj Finserv's stock has shown mixed market sentiment, with recent fluctuations but strong growth prospects in the financial services sector.</div>
+        </div>
         <div class="card" id="card6">
             <div class="card-header">Budget 2025: Top 5 Stocks to Watch in Union Budget 2025<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 22, 2025, 9:00 AM)</span></div>
             <div class="card-teaser">Key sectors and stocks to benefit from Union Budget 2025...</div>
@@ -191,7 +195,42 @@
                 </ol>
                 
                 <p>These stocks are strategically aligned with the government's focus areas for Budget 2025, which include infrastructure development, defense spending, and renewable energy investments. Investors may want to consider these companies for potential growth opportunities as the budget approaches.</p>
-                `
+                `,
+    card7: `<h3>Analysis of Bajaj Finserv</h3>
+
+        <h4>Market Sentiment</h4>
+        <p>Bajaj Finserv has experienced a mixed market sentiment recently. As of January 23, 2025, the stock closed at ₹1,743.30, down <strong>0.55%</strong> in the latest trading session. Despite this decline, the stock has shown resilience with a <strong>1-week return of 0.23%</strong> and a <strong>1-month increase of 2.28%</strong>. Analysts are generally optimistic about the stock, with many recommending a "buy" due to its strong fundamentals and potential for growth in the financial services sector.</p>
+
+        <h4>Financial Data</h4>
+        <ul>
+            <li><strong>Recent Performance</strong>: The stock's price has fluctuated around ₹1,700 to ₹1,800 over the past few weeks, indicating some volatility but also a level of support at these prices.</li>
+            <li><strong>Revenue Growth</strong>: Bajaj Finserv has reported an annual revenue growth rate of <strong>34.5%</strong>, significantly outperforming its three-year compound annual growth rate (CAGR) of <strong>21.89%</strong>.</li>
+            <li><strong>Return on Equity (ROE)</strong>: The company maintains an ROE of approximately <strong>12.44%</strong>, which is respectable for the financial services sector.</li>
+            <li><strong>Debt to Equity Ratio</strong>: The debt-to-equity ratio stands at <strong>4.66</strong>, indicating a higher reliance on debt financing, which could be a risk factor if not managed properly.</li>
+        </ul>
+
+        <h4>Growth Prospects</h4>
+        <p>Bajaj Finserv operates in a rapidly growing financial services market in India, which includes insurance, asset management, and lending services. Key growth drivers include:</p>
+        <ul>
+            <li><strong>Increased Financial Inclusion</strong>: With India's push towards digital finance and increased access to banking services, Bajaj Finserv is well-positioned to capture a larger market share.</li>
+            <li><strong>Diversification</strong>: The company's diversified business model across various financial sectors helps mitigate risks associated with any single segment.</li>
+            <li><strong>Technological Advancements</strong>: Investments in technology and digital platforms can enhance customer experience and operational efficiency.</li>
+        </ul>
+
+        <h4>Investment Recommendation</h4>
+        <p>Given the recent performance metrics and market sentiment:</p>
+        <ul>
+            <li><strong>Buy Recommendation</strong>: Investors looking for long-term growth may consider accumulating Bajaj Finserv shares at current levels, especially if they can tolerate short-term volatility.</li>
+            <li><strong>Target Levels</strong>: 
+                <ul>
+                    <li>Short-term targets could be set around ₹1,800 to ₹1,850 based on technical analysis and market trends.</li>
+                    <li>Long-term investors might aim for levels above ₹2,000 as the company continues to leverage growth opportunities in the financial sector.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>In conclusion, while Bajaj Finserv faces some challenges due to its debt levels and recent stock performance fluctuations, its strong fundamentals and growth prospects make it a compelling investment opportunity for those willing to hold for the long term.</p>
+            `            
         };
 
         // Get modal and close button
@@ -235,6 +274,9 @@
         });
         document.getElementById("card6").querySelector(".card-header").addEventListener("click", function() {
             openModal("card6");
+        });
+        document.getElementById("card7").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card7");
         });
         
 

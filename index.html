@@ -20,6 +20,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card8">
+            <div class="card-header">More positives for Coforge Ltd <span style="font-size: 0.8rem; color: #777;">(Posted: Jan 24, 2025)</span></div>
+            <div class="card-teaser">Coforge Ltd has experienced a significant positive shift in market sentiment following its recent quarterly results, with strong growth in financial performance and strategic acquisitions.</div>
+        </div>
         <div class="card" id="card7">
             <div class="card-header">Analysis of Bajaj Finserv <span style="font-size: 0.8rem; color: #777;">(Posted: Jan 23, 2025)</span></div>
             <div class="card-teaser">Bajaj Finserv's stock has shown mixed market sentiment, with recent fluctuations but strong growth prospects in the financial services sector.</div>
@@ -230,7 +234,47 @@
         </ul>
 
         <p>In conclusion, while Bajaj Finserv faces some challenges due to its debt levels and recent stock performance fluctuations, its strong fundamentals and growth prospects make it a compelling investment opportunity for those willing to hold for the long term.</p>
-            `            
+            `  ,
+    card8: `<h3>Analysis of Coforge Ltd</h3>
+
+        <h4>Market Sentiment</h4>
+        <p>Coforge Ltd has experienced a significant positive shift in market sentiment following its recent quarterly results. On January 23, 2025, the stock surged by approximately <strong>12%</strong>, reaching an intraday high of ₹9,320, driven by strong financial performance and strategic announcements, including a dividend declaration and an acquisition. The stock's ability to outperform its sector by <strong>7.81%</strong> reflects growing investor confidence in the company’s prospects.</p>
+
+        <h4>Financial Data</h4>
+        <ul>
+            <li><strong>Q3 FY25 Performance</strong>:
+                <ul>
+                    <li><strong>Net Profit</strong>: Increased by <strong>6.6%</strong> year-on-year to ₹215.5 crore.</li>
+                    <li><strong>Revenue</strong>: Grew by <strong>40.3%</strong> year-on-year to ₹3,318.2 crore in constant currency terms, and by <strong>7.5%</strong> quarter-over-quarter.</li>
+                    <li><strong>EBIT Margin</strong>: Marginally improved to <strong>9.5%</strong> from the previous quarter.</li>
+                    <li><strong>Order Intake</strong>: The company secured orders worth <strong>$501 million</strong>, marking the second consecutive quarter with order intake exceeding $500 million.</li>
+                    <li><strong>Dividend</strong>: An interim dividend of ₹19 per share was announced, reinforcing shareholder value.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h4>Growth Prospects</h4>
+        <p>Coforge is well-positioned for continued growth due to several factors:</p>
+        <ul>
+            <li><strong>Strong Order Book</strong>: The order book stands at <strong>$1.3 billion</strong>, up <strong>40%</strong> year-on-year, indicating robust demand for its services.</li>
+            <li><strong>Acquisition Strategy</strong>: The recent acquisition of Xceltrait Inc., which specializes in ServiceNow implementations, is expected to enhance Coforge's capabilities in the financial services sector.</li>
+            <li><strong>Market Trends</strong>: As enterprises increasingly adopt digital transformation strategies, Coforge's IT solutions are likely to see heightened demand.</li>
+        </ul>
+
+        <h4>Investment Recommendation</h4>
+        <p>Given the positive financial results and growth prospects:</p>
+        <ul>
+            <li><strong>Buy Recommendation</strong>: Investors should consider buying shares of Coforge at current levels, especially as the stock has shown resilience and strong fundamentals.</li>
+            <li><strong>Target Levels</strong>:
+                <ul>
+                    <li>Short-term targets could be set around ₹9,500 to ₹10,000 based on current momentum and market conditions.</li>
+                    <li>Long-term investors might aim for levels above ₹10,500 as the company capitalizes on growth opportunities and expands its service offerings.</li>
+                </ul>
+            </li>
+        </ul>
+
+        <p>In conclusion, Coforge presents a compelling investment opportunity due to its strong recent performance, strategic initiatives, and favorable market conditions. Investors looking for exposure in the IT services sector may find it worthwhile to add Coforge to their portfolios.</p>
+        `          
         };
 
         // Get modal and close button
@@ -277,6 +321,9 @@
         });
         document.getElementById("card7").querySelector(".card-header").addEventListener("click", function() {
             openModal("card7");
+        });
+        document.getElementById("card8").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card8");
         });
         
 

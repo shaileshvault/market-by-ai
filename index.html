@@ -20,6 +20,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card10">
+            <div class="card-header">Cautious approach in Bajaj Auto Limited<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 28, 2025)</span></div>
+            <div class="card-teaser">The overall market sentiment appears cautious, influenced by recent financial results and broader economic conditions.</div>
+        </div>
         <div class="card" id="card9">
             <div class="card-header">Tata Steel faces challenges<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 27, 2025)</span></div>
             <div class="card-teaser">Tata Steel faces immediate challenges with its stock price decline.</div>
@@ -305,7 +309,37 @@
 
             <h3>Conclusion</h3>
             <p>Tata Steel faces immediate challenges with its stock price decline, but the company’s long-term growth potential remains robust due to projected increases in production capacity and improving financial metrics. Investors should monitor key support and resistance levels and consider the company’s future outlook when making investment decisions.</p>
-            `              
+            `,
+    card10: `<h3>Market Sentiment and Financial Overview of Bajaj Auto Limited</h3>
+
+            <h4>Current Market Sentiment</h4>
+            <p>As of January 28, 2025, Bajaj Auto Limited's stock is trading at approximately ₹8,380.10, reflecting a slight decline of <strong>0.26%</strong> on the previous day, but showing a year-on-year return of about <strong>10.58%</strong>. The overall market sentiment appears cautious, influenced by recent financial results and broader economic conditions.</p>
+
+            <h4>Financial Performance</h4>
+            <p>Bajaj Auto has demonstrated resilience in its financial performance over recent years. Key indicators include:</p>
+            <ul>
+                <li><strong>Sales Growth</strong>: In FY2024, Bajaj Auto's sales increased by <strong>19.9%</strong>, achieving over 2.1 million units sold domestically, marking one of the highest volumes in a decade.</li>
+                <li><strong>Earnings</strong>: The company reported a net profit of ₹1,385 crore for Q2 FY25, which was a decrease of <strong>31%</strong> year-on-year due to tax adjustments and a shift in product mix towards less profitable electric vehicles (EVs).</li>
+                <li><strong>Profit Margins</strong>: The EBITDA margin fell to <strong>15.65%</strong>, down by 400 basis points, primarily due to the increased sales mix of EVs which currently yield lower margins.</li>
+            </ul>
+
+            <h4>Growth Prospects</h4>
+            <p>Bajaj Auto is positioned well for future growth, but faces challenges:</p>
+            <ul>
+                <li><strong>Market Competition</strong>: Intense competition from both domestic and international players poses risks to market share and growth. The company must adapt quickly to changing consumer preferences, particularly the shift towards electric vehicles.</li>
+                <li><strong>Stock Price Projections</strong>: Analysts forecast a bullish trend for Bajaj Auto's stock price, with potential targets reaching ₹12,780 by the end of 2025 and up to ₹18,587 by 2030. Short-term projections suggest a possible mid-year target of around ₹11,087.56 for 2025.</li>
+            </ul>
+
+            <h4>Investment Considerations</h4>
+            <p>Given the current financial metrics and market sentiment:</p>
+            <ul>
+                <li><strong>Valuation Concerns</strong>: Analysts indicate that Bajaj Auto may be overvalued at present based on its price-to-earnings (PE) ratio of approximately <strong>29.93</strong> compared to the industry average of <strong>30.4</strong>. This suggests caution for potential investors.</li>
+                <li><strong>Future Outlook</strong>: Despite recent profit declines, the long-term outlook remains positive if the company effectively navigates market challenges and capitalizes on its strong brand presence.</li>
+            </ul>
+
+            <h4>Conclusion</h4>
+            <p>Investors should weigh the potential for growth against current valuation concerns and market competition. While there are promising projections for stock price increases in the coming years, the immediate outlook appears mixed. A strategic approach may involve monitoring Bajaj Auto's adaptation to market trends and its financial performance in upcoming quarters before making significant investment decisions.</p>
+            `                      
         };
 
         // Get modal and close button
@@ -358,6 +392,9 @@
         });
         document.getElementById("card9").querySelector(".card-header").addEventListener("click", function() {
             openModal("card9");
+        });
+        document.getElementById("card10").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card10");
         });
         
 

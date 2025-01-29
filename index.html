@@ -20,6 +20,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card11">
+            <div class="card-header">Overview of Bharat Heavy Electricals Ltd<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 29, 2025)</span></div>
+            <div class="card-teaser">BHEL's financial metrics indicate both challenges and opportunities.</div>
+        </div>
         <div class="card" id="card10">
             <div class="card-header">Cautious approach in Bajaj Auto Limited<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 28, 2025)</span></div>
             <div class="card-teaser">The overall market sentiment appears cautious, influenced by recent financial results and broader economic conditions.</div>
@@ -339,7 +343,40 @@
 
             <h4>Conclusion</h4>
             <p>Investors should weigh the potential for growth against current valuation concerns and market competition. While there are promising projections for stock price increases in the coming years, the immediate outlook appears mixed. A strategic approach may involve monitoring Bajaj Auto's adaptation to market trends and its financial performance in upcoming quarters before making significant investment decisions.</p>
-            `                      
+            `,
+    card11: `
+            <h3>Market Sentiment and Financial Overview of Bharat Heavy Electricals Ltd (BHEL)</h3>
+
+            <h4>Market Sentiment</h4>
+            <p>As of January 29, 2025, BHEL's stock is trading at approximately ₹194.45, reflecting a recent increase of <strong>0.46%</strong>. However, it has experienced a substantial decline of over <strong>43%</strong> from its 52-week high of ₹335.40 reached in July 2024. Analysts' sentiments are varied; while some brokerage firms maintain a <strong>buy</strong> rating based on strong order inflows and execution capabilities, others are more cautious. For instance, Kotak Institutional Equities has issued a <strong>sell</strong> rating with a target price of ₹110, citing concerns over margin expansion despite anticipated revenue growth.</p>
+
+            <h4>Financial Data</h4>
+            <p>BHEL's financial metrics indicate both challenges and opportunities:</p>
+            <ul>
+                <li><strong>Market Capitalization</strong>: Approximately ₹69,885 crore.</li>
+                <li><strong>Revenue Growth</strong>: Analysts project revenue for Q3 FY2025 to be between ₹6,617.5 crore and ₹6,997.9 crore, marking an increase of <strong>23%</strong> to <strong>27%</strong> YoY.</li>
+                <li><strong>Profitability</strong>: Expected net profit for the same period ranges from ₹145 crore to ₹189.3 crore, showcasing significant year-on-year growth. However, the company's Return on Equity (ROE) stands at a lowly <strong>1.16%</strong>, indicating limited profitability relative to shareholder equity.</li>
+                <li><strong>Debt Levels</strong>: BHEL has a debt-to-equity ratio of <strong>36.24</strong>, which suggests manageable debt levels but also raises questions about leverage and financial flexibility.</li>
+            </ul>
+
+            <h4>Growth Prospects</h4>
+            <p>The outlook for BHEL appears cautiously optimistic:</p>
+            <ul>
+                <li>The company is expected to benefit from increased demand in the power and industrial segments, driven by government initiatives in infrastructure and renewable energy projects.</li>
+                <li>Analysts predict that the stock could reach levels between ₹336.65 and ₹339.05 by mid-2025 based on projected revenue growth and market recovery trends.</li>
+                <li>Long-term projections suggest that BHEL could potentially reach around ₹588 by January 2030 if it capitalizes on favorable market conditions and executes its projects effectively.</li>
+            </ul>
+
+            <h4>Investment Recommendation</h4>
+            <p>Considering the current market conditions and BHEL's financial health:</p>
+            <ul>
+                <li><strong>Buy</strong>: If you are looking for long-term investment opportunities and can tolerate volatility, BHEL may offer potential growth as it aligns with government spending in infrastructure.</li>
+                <li><strong>Caution</strong>: If you prefer stability or are risk-averse, it might be prudent to wait for clearer signals regarding margin improvements and overall market recovery.</li>
+            </ul>
+
+            <h4>Conclusion</h4>
+            <p>In conclusion, while BHEL presents opportunities for growth due to its strong order book and sectoral demand, potential investors should weigh these against its current financial metrics and market volatility before making investment decisions.</p>
+            `                              
         };
 
         // Get modal and close button
@@ -395,6 +432,9 @@
         });
         document.getElementById("card10").querySelector(".card-header").addEventListener("click", function() {
             openModal("card10");
+        });
+        document.getElementById("card11").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card11");
         });
         
 

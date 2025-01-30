@@ -20,6 +20,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card12">
+            <div class="card-header">J K Cement Ltd recent up tick<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 30, 2025)</span></div>
+            <div class="card-teaser">J K Cement Ltd has recently experienced a notable surge in its stock price, reaching a new high of ₹4,969.95, with a 14% increase over the past two weeks.</div>
+        </div>
         <div class="card" id="card11">
             <div class="card-header">Overview of Bharat Heavy Electricals Ltd<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 29, 2025)</span></div>
             <div class="card-teaser">BHEL's financial metrics indicate both challenges and opportunities.</div>
@@ -376,7 +380,38 @@
 
             <h4>Conclusion</h4>
             <p>In conclusion, while BHEL presents opportunities for growth due to its strong order book and sectoral demand, potential investors should weigh these against its current financial metrics and market volatility before making investment decisions.</p>
-            `                              
+            `,
+    card12: `<h3>Market Sentiment and Performance</h3>
+
+            <p>J K Cement Ltd has recently experienced a notable surge in its stock price, reaching a new high of ₹4,969.95, with a 14% increase over the past two weeks. This rally is attributed to positive market sentiment surrounding the company's growth prospects, particularly expectations of healthy volume growth in the upcoming March 2025 quarter (Q4FY25). Analysts are optimistic about the company's performance, forecasting a compound annual growth rate (CAGR) of approximately 8% in consolidated volumes from FY24 to FY27, driven by capacity expansion and improved demand.</p>
+
+            <h4>Financial Analysis</h4>
+
+            <h5>Key Financial Metrics</h5>
+            <ul>
+                <li><strong>Revenue</strong>: For Q3 FY25, J K Cement reported revenues of ₹2,930 crore, reflecting a slight year-on-year increase of 1.4%.</li>
+                <li><strong>Net Income</strong>: The net income for the same quarter was ₹1.90 billion, down 33% compared to the previous year, indicating pressure on profit margins due to rising costs.</li>
+                <li><strong>Earnings Per Share (EPS)</strong>: EPS decreased to ₹24.54 from ₹36.73 in Q3 FY24.</li>
+            </ul>
+
+            <h5>Growth Prospects</h5>
+            <p>The company aims to double its grey cement capacity to 50 million tonnes per annum (mtpa) by FY30, which aligns with an ambitious expansion strategy that could significantly enhance its market share and operational efficiency. Analysts predict revenue growth of around 8.8% CAGR from FY24 to FY27, with EBITDA and PAT expected to grow at 14.5% and 19.3%, respectively.</p>
+
+            <h4>Investment Recommendations</h4>
+            <p>Several brokerage firms have issued buy recommendations for J K Cement:</p>
+            <ul>
+                <li><strong>ICICI Securities</strong> projects a target price of ₹5,700 per share based on strong volume growth and operational improvements.</li>
+                <li><strong>Choice Equity Broking</strong> has set a target price of ₹5,532, citing confidence in the company's growth trajectory and recent capacity expansions.</li>
+                <li>Consensus estimates suggest a moderate upside potential from current levels, with average target prices ranging from ₹4,736.74 to ₹5,310.00.</li>
+            </ul>
+
+            <h4>Stock Levels and Future Outlook</h4>
+            <p>Given the current trading price around ₹4,890.80 and positive growth indicators, J K Cement is positioned for potential upward movement in the near future. Analysts suggest that if the stock maintains momentum above key support levels (around ₹4,750), it could reach target levels between ₹5,215 and ₹5,700 within the next few months.</p>
+
+            <h4>Conclusion</h4>
+            <p>Considering J K Cement's robust expansion plans, improving market conditions, and analyst confidence in its growth prospects, it appears to be a compelling investment opportunity for those looking to enter the cement sector.
+            `
+
         };
 
         // Get modal and close button
@@ -435,6 +470,9 @@
         });
         document.getElementById("card11").querySelector(".card-header").addEventListener("click", function() {
             openModal("card11");
+        });
+        document.getElementById("card12").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card12");
         });
         
 

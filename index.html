@@ -20,6 +20,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card13">
+            <div class="card-header">Economic Survey 2025<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 31, 2025)</span></div>
+            <div class="card-teaser">The highlights reflect a comprehensive assessment of India's economic landscape as presented in the Economic Survey 2024-25 during the Budget session.</div>
+        </div>
         <div class="card" id="card12">
             <div class="card-header">J K Cement Ltd recent up tick<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 30, 2025)</span></div>
             <div class="card-teaser">J K Cement Ltd has recently experienced a notable surge in its stock price, reaching a new high of ₹4,969.95, with a 14% increase over the past two weeks.</div>
@@ -410,6 +414,35 @@
 
             <h4>Conclusion</h4>
             <p>Considering J K Cement's robust expansion plans, improving market conditions, and analyst confidence in its growth prospects, it appears to be a compelling investment opportunity for those looking to enter the cement sector.
+            `,
+    card13: `<h3>Economic Overview of India: Projections and Challenges</h3>
+
+            <h4>Economic Growth Projections</h4>
+            <p>The Economic Survey projects India's GDP growth at <strong>6.4% for FY25</strong> and between <strong>6.3% to 6.8% for FY26</strong>, indicating a stable outlook despite current economic challenges.</p>
+
+            <h4>Fiscal Deficit</h4>
+            <p>For the first three quarters of FY25, India's fiscal deficit stands at <strong>56.7% of the full-year target</strong>, reflecting ongoing financial pressures.</p>
+
+            <h4>Inflation Management</h4>
+            <p>The survey notes that inflation risks from rising commodity prices appear limited for FY26, suggesting effective management strategies in place.</p>
+
+            <h4>Sectoral Developments</h4>
+            <p>Key sectors are highlighted, with emphasis on the need for enhanced public-private partnerships to support initiatives like affordable housing, which is crucial for achieving the government's goal of 'Housing for All' by 2024-29.</p>
+
+            <h4>Long-term Goals</h4>
+            <p>To achieve <strong>'Viksit Bharat' (Developed India)</strong> by 2047, an annual growth rate of <strong>8% is necessary</strong>, underscoring the ambitious nature of India's economic aspirations.</p>
+
+            <h4>Challenges Identified</h4>
+            <p>The survey discusses significant challenges such as slowing growth rates, rupee depreciation, and subdued domestic demand, which need to be addressed to sustain economic momentum.</p>
+
+            <h4>Impact of Global Factors</h4>
+            <p>It acknowledges that global economic conditions, including geopolitical tensions and supply chain disruptions, could impact India's recovery trajectory, although strong services exports have provided some counterbalance.</p>
+
+            <h4>Public Policy Focus</h4>
+            <p>The document emphasizes the importance of digitalization and infrastructure investment as key drivers in recovering from past economic setbacks, particularly those caused by the pandemic.</p>
+
+            <p>These highlights reflect a comprehensive assessment of India's economic landscape as presented in the Economic Survey 2024-25 during the Budget session.</p>
+
             `
 
         };
@@ -473,6 +506,9 @@
         });
         document.getElementById("card12").querySelector(".card-header").addEventListener("click", function() {
             openModal("card12");
+        });
+        document.getElementById("card13").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card13");
         });
         
 

@@ -20,6 +20,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card3">
+            <div class="card-header">Expectations for Union Budget 2025<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 31, 2025, 05:00 PM)</span></div>
+            <div class="card-teaser">Scheduled to be presented by Finance Minister Nirmala Sitharaman on February 1, 2025</div>
+        </div>
                 
         <div class="card" id="card1">
             <div class="card-header">Top 5 Stocks to Watch in Union Budget 2025<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 22, 2025, 9:00 AM)</span></div>
@@ -78,7 +82,42 @@
                     <li><strong>Digital Economy and Emerging Technologies</strong>: Investments in digital infrastructure and emerging technologies like AI, blockchain, and quantum computing are likely to be prioritized. The government aims to integrate these technologies into various sectors to foster innovation and improve financial inclusion.</li><br>
                     <li><strong>Human Capital Development</strong>: There is an anticipated focus on healthcare and education, with increased funding for telemedicine, public healthcare infrastructure, vocational training, and skills development. This is essential for preparing India's workforce for future challenges and attracting international firms.</li><br>
                 </ol>
-                `
+                `,
+            card3: `<h3>Key Highlights and Expectations for Union Budget 2025</h3>
+                    <p>Scheduled to be presented by Finance Minister Nirmala Sitharaman on February 1, 2025:</p>
+
+                    <h4>Economic Focus and Reforms</h4>
+                    <ol>
+                        <li><strong>Tax Reforms</strong>: Anticipated revisions in income tax slabs, potentially introducing zero income tax for individuals earning less than ₹10 lakh annually. There are also calls for rationalizing individual tax rates from the current maximum of 37% to 25% to enhance disposable income and stimulate spending.</li><br>
+                        <li><strong>GST Simplification</strong>: Expectations include simplification of the Goods and Services Tax (GST) structure, possibly lowering rates on essential goods and services, which would ease compliance for businesses.</li><br>
+                    </ol>
+
+                    <h4>Sector-Specific Allocations</h4>
+                    <ol>
+                        <li><strong>Infrastructure Investment</strong>: A proposed 10% increase in capital expenditure (capex) for the railways and other infrastructure projects is expected to drive economic growth and job creation. This aligns with the government's broader goal of enhancing public infrastructure.</li><br>
+                        <li><strong>Support for MSMEs</strong>: The budget is likely to focus on strengthening micro, small, and medium enterprises (MSMEs) through expanded credit guarantee schemes and incentives for technology adoption. This is crucial for bolstering economic resilience.</li><br>
+                    </ol>
+
+                    <h4>Agriculture and Housing</h4>
+                    <ol>
+                        <li><strong>Agriculture Sector Support</strong>: Increased focus on agricultural reforms is anticipated, including enhanced credit access and sustainability measures to support rural economies.</li><br>
+                        <li><strong>Affordable Housing Initiatives</strong>: Proposals include increasing the tax deduction limit on housing loan interest from ₹2 lakh to ₹4 lakh, along with adjustments to definitions for economically weaker sections (EWS) to stimulate housing demand.</li><br>
+                    </ol>
+
+                    <h4>Employment and Economic Stability</h4>
+                    <ol>
+                        <li><strong>Job Creation Measures</strong>: The budget is expected to introduce employment-linked incentive schemes aimed at boosting job creation across various sectors, particularly in retail and consumer goods.</li><br>
+                        <li><strong>Inflation Control Strategies</strong>: With rising inflation being a concern, measures to stabilize prices and strengthen the rupee against global fluctuations are anticipated as part of the economic stability agenda.</li><br>
+                    </ol>
+
+                    <h4>Energy Transition</h4>
+                    <ol>
+                        <li><strong>Sustainable Energy Investments</strong>: There are expectations for increased allocations towards renewable energy projects, including support for solar energy initiatives and electric vehicle infrastructure. This reflects a commitment to India's energy transition goals.</li><br>
+                    </ol>
+
+                    <p>These highlights suggest a comprehensive approach aimed at balancing fiscal consolidation with economic growth while addressing sector-specific needs in the upcoming Union Budget 2025.</p>
+    
+            `
         };
 
         // Get modal and close button
@@ -110,6 +149,9 @@
         });
         document.getElementById("card2").querySelector(".card-header").addEventListener("click", function() {
             openModal("card2");
+        });
+        document.getElementById("card3").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card3");
         });
         
         

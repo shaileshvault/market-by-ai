@@ -20,6 +20,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card14">
+            <div class="card-header">Key Highlights from the Union Budget 2025 for the Salaried Class<span style="font-size: 0.8rem; color: #777;">(Posted: Feb 1, 2025)</span></div>
+            <div class="card-teaser">The Union Budget 2025, presented by Finance Minister Nirmala Sitharaman, introduced several significant measures aimed at providing relief and support to the salaried class amidst challenging economic conditions.</div>
+        </div>
         <div class="card" id="card13">
             <div class="card-header">Economic Survey 2025<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 31, 2025)</span></div>
             <div class="card-teaser">The highlights reflect a comprehensive assessment of India's economic landscape as presented in the Economic Survey 2024-25 during the Budget session.</div>
@@ -443,6 +447,39 @@
 
             <p>These highlights reflect a comprehensive assessment of India's economic landscape as presented in the Economic Survey 2024-25 during the Budget session.</p>
 
+            `,
+    card14: `<h3>Key Highlights from the Union Budget 2025 for the Salaried Class</h3>
+
+            <p>The Union Budget 2025, presented by Finance Minister Nirmala Sitharaman, introduced several significant measures aimed at providing relief and support to the salaried class amidst challenging economic conditions. Here are the main points that directly impact this demographic:</p>
+
+            <h4>Income Tax Changes</h4>
+            <ul>
+                <li><strong>Increased Tax Exemption Limit</strong>: The budget raised the income tax exemption limit to ₹12 lakh annually, meaning individuals earning up to this amount will not be liable for income tax. This change is expected to enhance disposable income for many middle-class families.</li>
+                <li><strong>Revised Tax Slabs</strong>: The government proposed a restructuring of tax slabs, with a peak rate cut to 25% for incomes above ₹15 lakh. The tax rates were adjusted to 15% for income between ₹10 lakh and ₹15 lakh, while retaining certain exemptions for healthcare and National Pension Scheme (NPS) contributions.</li>
+            </ul>
+
+            <h4>Relief Measures</h4>
+            <ul>
+                <li><strong>TDS on Rent</strong>: The annual limit for Tax Deducted at Source (TDS) on rent was increased, providing additional financial relief to individuals who rent properties.</li>
+                <li><strong>Daycare Expenses</strong>: A new tax exemption for working women on daycare expenses was introduced, aimed at supporting their participation in the workforce. This measure is particularly beneficial for those with young children.</li>
+            </ul>
+
+            <h4>Support for Economic Growth</h4>
+            <ul>
+                <li><strong>Consumption Vouchers</strong>: The budget proposed the introduction of consumption vouchers targeted at lower-income groups, which could stimulate spending and support economic growth. This initiative aims to enhance consumer demand, indirectly benefiting salaried individuals through increased economic activity.</li>
+                <li><strong>Investment in Infrastructure</strong>: There is a focus on boosting capital expenditure and infrastructure development, which is expected to create jobs and increase economic opportunities for the salaried class over time.</li>
+            </ul>
+
+            <h4>Healthcare Initiatives</h4>
+            <ul>
+                <li><strong>Customs Duty Exemptions</strong>: The budget announced that 36 life-saving drugs and medicines would be fully exempt from basic customs duty, potentially lowering healthcare costs for individuals and families.</li>
+            </ul>
+
+            <h4>Long-term Economic Goals</h4>
+            <p>The government reiterated its commitment to achieving a sustained GDP growth rate of around 6.5% or higher, which is essential for improving employment opportunities and economic stability in the long run. This growth is crucial as it directly affects job creation and salary increments across various sectors.</p>
+
+            <h4>Conclusion</h4>
+            <p>The Union Budget 2025 reflects a strategic approach to uplift the salaried class by increasing tax exemptions and introducing supportive measures aimed at enhancing disposable income and economic participation. While these changes are designed to provide immediate relief, they also align with broader goals of economic growth and stability in India.</p>
             `
 
         };
@@ -509,6 +546,9 @@
         });
         document.getElementById("card13").querySelector(".card-header").addEventListener("click", function() {
             openModal("card13");
+        });
+        document.getElementById("card14").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card14");
         });
         
 

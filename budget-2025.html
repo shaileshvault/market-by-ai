@@ -20,6 +20,10 @@
         <a href="#">About Us</a>
     </nav>
     <div class="container">
+        <div class="card" id="card4">
+            <div class="card-header">Highlight of Union Budget 2025<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 31, 2025, 05:00 PM)</span></div>
+            <div class="card-teaser">Union Budget 2025 presented by Finance Minister Nirmala Sitharaman on February 1, 2025, the Union Budget 2025 outlines several key initiatives aimed at bolstering economic growth and enhancing the welfare of citizens.</div>
+        </div>
         <div class="card" id="card3">
             <div class="card-header">Expectations for Union Budget 2025<span style="font-size: 0.8rem; color: #777;">(Posted: Jan 31, 2025, 05:00 PM)</span></div>
             <div class="card-teaser">Scheduled to be presented by Finance Minister Nirmala Sitharaman on February 1, 2025</div>
@@ -117,7 +121,32 @@
 
                     <p>These highlights suggest a comprehensive approach aimed at balancing fiscal consolidation with economic growth while addressing sector-specific needs in the upcoming Union Budget 2025.</p>
     
-            `
+            `,
+            card4: `<h3>Key Highlights and Expectations for Union Budget 2025</h3>
+                    <p>Presented by Finance Minister Nirmala Sitharaman on February 1, 2025, the Union Budget 2025 outlines several key initiatives aimed at bolstering economic growth and enhancing the welfare of citizens. Here are the main highlights from the budget speech:</p>
+
+                    <h4>Key Highlights</h4>
+                    <ol>
+                        <li><strong>Income Tax Reforms</strong>: The budget introduces a new Income Tax Bill aimed at simplifying tax structures. Notably, individuals earning up to ₹12 lakh annually will be exempt from income tax, providing significant relief to the middle class. Additionally, the annual limit for Tax Deducted at Source (TDS) on rent has been increased from ₹2.40 lakh to ₹6 lakh, benefiting smaller landlords and tenants.</li><br>
+
+                        <li><strong>Focus on Manufacturing and MSMEs</strong>: The government is prioritizing the manufacturing sector under the 'Viksit Bharat' initiative. This includes enhancing investment limits for Micro, Small, and Medium Enterprises (MSMEs), which account for 45% of India's exports. A new fund for startups is also being established with an additional contribution of ₹10,000 crore.</li><br>
+
+                        <li><strong>Healthcare Initiatives</strong>: The budget exempts 36 life-saving drugs from basic customs duty and imposes concessional rates on six others. This move is expected to lower healthcare costs for patients suffering from chronic illnesses like cancer.</li><br>
+
+                        <li><strong>Rural Development Programs</strong>: A six-year program focusing on achieving self-reliance in pulses has been announced, alongside the PM Dhan Dhyan Krishi Yojana aimed at improving agricultural productivity in low-yield districts. This initiative is expected to benefit around 1.7 crore farmers.</li><br>
+
+                        <li><strong>Education and Skill Development</strong>: The budget allocates funds to establish a Centre for Excellence in Artificial Intelligence (AI) for education with an outlay of ₹500 crore. Furthermore, there will be an addition of 10,000 medical college seats next year and a total of 75,000 over the next five years.</li><br>
+
+                        <li><strong>Infrastructure Investments</strong>: The Udan Scheme will be extended to cover 120 more destinations, enhancing connectivity across the country. There are also plans for improved internet connectivity in government schools and hospitals.</li><br>
+
+                        <li><strong>Fiscal Responsibility</strong>: Sitharaman emphasized maintaining fiscal prudence while stimulating growth. The budget aims to address challenges posed by geopolitical uncertainties and a slowing economy, which has seen growth rates drop to a four-year low of 6.4%.</li><br>
+
+                        <li><strong>Comprehensive Reforms</strong>: The budget outlines reforms in six key areas: taxation, urban development, mining, financial sector improvements, power sector reforms, and regulatory changes aimed at enhancing ease of doing business.</li><br>
+                    </ol>
+
+                    <h4>Conclusion</h4>
+                    <p>The Union Budget 2025 reflects a strategic approach towards economic recovery by focusing on tax relief for the middle class, strengthening manufacturing capabilities, enhancing healthcare access, and investing in education and infrastructure. These measures aim to foster inclusive growth while navigating the complexities of a challenging global economic landscape.</p>
+                    `
         };
 
         // Get modal and close button
@@ -152,6 +181,9 @@
         });
         document.getElementById("card3").querySelector(".card-header").addEventListener("click", function() {
             openModal("card3");
+        });
+        document.getElementById("card4").querySelector(".card-header").addEventListener("click", function() {
+            openModal("card4");
         });
         
         
